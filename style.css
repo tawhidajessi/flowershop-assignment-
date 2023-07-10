@@ -1,0 +1,45 @@
+/* Banner section */
+.header{
+    margin: 0px 0px 600px 0px;
+    background:  rgba(229, 84, 115, 0.1);
+    width: 100%;
+    flex-shrink: 0;
+}
+.shop-title{
+color: #272727;
+font-family: Lato;
+font-size: 50px;
+padding-left: 10px;
+margin-bottom: 32px;
+}
+.shop-paragraph{
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 32px;
+}
+.banner{
+    padding: 30px 240px 0px 240px;
+    display: flex;
+   
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+    
+}
+.banner-img{
+    width: 500px;
+    padding-bottom: 0px;
+}
+.btn-primary{
+    border-radius: 8px;
+background: #E55473;
+color: aliceblue;
+display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border: none;
+}
