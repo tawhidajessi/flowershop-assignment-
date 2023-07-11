@@ -7,8 +7,7 @@
 
 /* Banner section */
 .header{
-    padding-left: 30px;
-    padding-right: 100px;
+   padding-left: 5px;
     background:  rgba(229, 84, 115, 0.1);
     width: 100vw;
     flex-shrink: 0;
@@ -170,18 +169,19 @@ font-weight: 400;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
+
 }
 
 /* instagram section */
 .instagram-img{
     display: flex;
     justify-content: center;
-    width: 100%;
-    border: 0px;
-    padding: 100px;
-    size: 100vw;
-  gap: 40px;
+    justify-items: center;
+    width: 1140px;
+    gap: 10px;
+    padding-left: 10px;
     
+   
 }
 /* Get the deal section */
 .Deals{
@@ -198,13 +198,17 @@ border-radius: 8px;
 align-content: center;
 align-items: center;
 }
+.Form{
+    height: 500px;
+}
 .deals-btn{
+
     border-radius: 5px;
 background: #E55473;
 color: aliceblue;
 padding: 5px 5px;
 align-items: flex-start;
-gap: 10px;
+gap: 20px;
 border: none;
 }
 /* review section */
