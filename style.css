@@ -7,9 +7,10 @@
 
 /* Banner section */
 .header{
-    margin: 0px 0px 0px 0px;
+    padding-left: 30px;
+    padding-right: 100px;
     background:  rgba(229, 84, 115, 0.1);
-    width: 100%;
+    width: 100vw;
     flex-shrink: 0;
 }
 .shop-title{
@@ -26,16 +27,15 @@ margin-bottom: 32px;
 padding-left: 10px;
 }
 .banner{
-    padding: 30px 240px 0px 240px;
     display: flex;
     justify-content: space-between;
 }
-.banner-content{
-    max-width: 500px;  
-}
+
 
 .banner-img{
     width: 500px;
+height: 500px;
+flex-shrink: 0;
     padding-bottom: 0px;
 }
 .btn-primary{
@@ -55,7 +55,6 @@ border: none;
     color: #272727;
     text-align: center;
     font-size: 40px;
-    font-weight: 800;
     padding: 30px;
     padding-bottom: 0px;
 }
@@ -72,14 +71,13 @@ font-weight: 400;
     align-items: center;
     align-content: center;
     gap: 50px;
-
-    border: 50px;
+    border: 5px;
     padding-top: 100px;
 
 }
 .featured-box .first-box{
-    width: 464px;
-height: 538px;
+    width: 200px;
+height: 200px;
 flex-shrink: 0;
 border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
@@ -87,8 +85,8 @@ background: rgba(167, 33, 98, 0.15);
 
 }
 .featured-box .second-box{
-    width: 464px;
-    height: 538px;
+    width: 200px;
+height: 200px;
 flex-shrink: 0;
 border-radius: 300px 300px 0px 0px;
 background: rgba(5, 151, 160, 0.15);
@@ -96,16 +94,18 @@ background: rgba(5, 151, 160, 0.15);
 
 }
 .featured-box .third-box{
-    width: 464px;
-height: 538px;
+    width: 200px;
+    height: 200px;
 flex-shrink: 0;
 border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
 
 }
 .boxone-img{
-    margin: 50px;
-    height: 488px;
+    
+    width: 200px;
+height: 180px;
+padding-top: 20px;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -114,14 +114,16 @@ background: rgba(71, 125, 17, 0.15);
 .boxtwo-img {
   
     padding: 0px;
-    height: 488px;
+    width: 195px;
+    height: 200px;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
 .boxthree-img {
-    margin: 50px;
-    height: 488px;
+  
+    width: 200px;
+    height: 200px;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -129,21 +131,20 @@ background: rgba(71, 125, 17, 0.15);
 .text-img {
     display: flex;
     width: 100%;
-    justify-content: center;
+    text-align: center;
+    justify-items: center;
     align-items: center;
-    gap: 410px;
-    padding-left: 20px;
-    padding-right: 500px;
-    padding-bottom: 40px;
+    gap: 150px;
+    margin-left: 300px;
+    margin-right: 250px;
 }
-
-
 
 /* Hot deal section */
 .hot-deal{
     display: flex;
     justify-content: space-between;
     margin: 0px 0px 0px 0px;
+    height: fit-content;
     width: 100%;
 border: 8px;
 border-radius: 8px;
@@ -174,11 +175,77 @@ margin-right: auto;
 /* instagram section */
 .instagram-img{
     display: flex;
-    justify-items: center;
     justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 50px;
-    border: 50px;
-    padding-top: 100px;
+    width: 100%;
+    border: 0px;
+    padding: 100px;
+    size: 100vw;
+  gap: 40px;
+    
+}
+/* Get the deal section */
+.Deals{
+background-image: url(Rectangle\ 9.png);
+background-repeat: no-repeat;
+background-position: center;
+margin: auto;
+height: 300px;
+padding-top: 200px;
+padding-left: 500px;
+padding-right: 500px;
+padding-bottom: 200px;
+border-radius: 8px;
+align-content: center;
+align-items: center;
+}
+.deals-btn{
+    border-radius: 5px;
+background: #E55473;
+color: aliceblue;
+padding: 5px 5px;
+align-items: flex-start;
+gap: 10px;
+border: none;
+}
+/* review section */
+.review{
+    background-color: rgb(246, 244, 250);
+    margin-top: 0px;
+ 
+    padding: 10px;
+
+}
+.review-title{
+    text-align: center;
+}
+.reviwes{
+    text-align: center;
+}
+
+
+
+/* footer section */
+.title{
+    width: 700px;
+height: 64px;
+flex-shrink: 0;
+padding-top: 50px;
+}
+
+.colors{
+    color: #E55473;
+   
+}
+.footer{
+    color: #FFFFFF;
+    width: 100vw;
+height: 449px;
+flex-shrink: 0;
+background: #111010;
+}
+.footer-title{
+   color: #ffffff;
+}
+.footer-paragraph{
+    color: #FFFFFF;
 }
